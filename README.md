@@ -5,7 +5,7 @@
 
 3.创建新目录为mkdir+你想起的目录名称
 ###git bash命令
-1.cd 进入某某目录，example: cd d: 进入d盘
+1.cd 进入某某目录，example: cd d: 进入d盘。`pwd`查看当前目录
 
 2.在某个目录下使用命`git init`,这个目录就成为了一个仓库，目录中的所有文件就可以被git管理了。
 
@@ -16,4 +16,13 @@
 5.`git status`查看状态，`git diff`查看不同
 
 6. 修改的时候要提交使用的也是git add git commit liang'bu这两步
+
+ . 使用`git log`查看历史记录 使用`git log --pretty="commit id"`查看特定版本号
+ 
+ . 使用`git set --hard HEAD^`退回到特定版本，退回上100个版本为HEAD~100。`git set --hard +commit号`可以到特定版本
+ 
+ . `git reflog`在关闭电脑之后仍然可以找到历史的各个版本号用于退回
+ 
+ . **暂存区的概念**，git add 是把内容先放到暂存区。git commit就是放到分支上。
+ 
     
