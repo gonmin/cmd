@@ -25,4 +25,7 @@
  
  . **暂存区的概念**，git add 是把内容先放到暂存区。git commit就是放到分支上。
  
+ . 如果只是修改了内容，没有git add 和git commit 可以通过 `git checkout -- +文件名丢弃`。如果已经add了，可以通过git reset HEAD file和checkout撤销
+ 如果add、和commit之后就可以版本回退。
+ 
     
