@@ -19,7 +19,7 @@
 
  . 使用`git log`查看历史记录 使用`git log --pretty="commit id"`查看特定版本号
  
- . 使用`git set --hard HEAD^`退回到特定版本，退回上100个版本为HEAD~100。`git set --hard +commit号`可以到特定版本
+ . 使用`git reset --hard HEAD^`退回到特定版本，退回上100个版本为HEAD~100。`git set --hard +commit号`可以到特定版本
  
  . `git reflog`在关闭电脑之后仍然可以找到历史的各个版本号用于退回
  
