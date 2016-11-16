@@ -12,4 +12,8 @@
 3.使用`git add`加文件名添加文件。
 
 4.第四部，使用`git commit -m "操作说明"`保存
+
+5.`git status`查看状态，`git diff`查看不同
+
+6. 修改的时候要提交使用的也是git add git commit liang'bu这两步
     
