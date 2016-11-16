@@ -27,5 +27,6 @@
  
  . 如果只是修改了内容，没有git add 和git commit 可以通过 `git checkout -- +文件名丢弃`。如果已经add了，可以通过git reset HEAD file和checkout撤销
  如果add、和commit之后就可以版本回退。
+ . **删除内容**。删了文件之后，实际是把工作区的文件删除了，如果要把版本库的文件也删除，则使用git rm + 文件名。然后再git commit。如果是误删的则可以，checkout 回复。
  
     
