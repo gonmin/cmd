@@ -32,4 +32,10 @@
  1. 将本地git仓库添加到远程github仓库，并用这两个仓库进行远程同步。先在github上建立一个同名的repository，然后使用命令`$ git remote add origin git@github.com:+github的用户名/+repository名称.git`，然后使用`$ git push -u origin master`,以后再更新用`$ git push origin master`即可
 
 2.将远程库克隆到本地使用`git clone`
+###分支
+1.创建新的分支并切换到该分支`git checkout -b + 你要创建的分支名称`
+
+2.查看当前分支 `git branch`
+
+
     
