@@ -33,9 +33,13 @@
 
 2.将远程库克隆到本地使用`git clone`
 ###分支
-1.创建新的分支并切换到该分支`git checkout -b + 你要创建的分支名称`
+1.创建新的分支并切换到该分支`git checkout -b + 你要创建的分支名称`。其中创建新的分支命令为`git branch +分支的名字`，切换分支`git checkout +分支的名称`
 
 2.查看当前分支 `git branch`
+
+3.合并某分支到当前分支`git merge+该分支的名称`
+
+4.删除分支 `git branch -d +要删除的分支名称`
 
 
     
