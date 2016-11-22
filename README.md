@@ -40,5 +40,8 @@
 
 4.删除分支 `git branch -d +要删除的分支名称`
 
+5.通常，合并分支时，如果可能，Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息。使用`git merge --no-ff -m "合并dev" dev
+`
+6.有bug要修复时，先把工作区的内容隐藏，使用`git stash`,然后切换到master分支，创建新的分支来修复，然后合并到master。删除修复分支，最后切换到工作分支，使用`git stash pop`显示刚刚隐藏的内容。
 
     
