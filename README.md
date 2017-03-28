@@ -12,7 +12,7 @@
 
 6.修改的时候要提交使用的也是git add git commit liang'bu这两步
 
-7.使用`git log`查看历史记录 使用`git log --pretty="commit id"`查看特定版本号
+7.使用`git log`查看历史记录，`git log --pretty=oneline`，可以减少信息 使用`git log --pretty="commit id"`查看特定版本号
  
 8.使用`git reset --hard HEAD^`退回到特定版本，退回上100个版本为HEAD~100。`git set --hard +commit号`可以退回到特定版本
  
